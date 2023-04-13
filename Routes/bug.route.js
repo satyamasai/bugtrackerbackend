@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const { bugModel } = require("../Models/bug.model");
-const { Authentication } = require("../Middlewares/authenication");
+import {Authentication} from "../Middlewares/Authenication"
 
 const bugController = Router();
 // -----------------------------------adding bug in database----------------
